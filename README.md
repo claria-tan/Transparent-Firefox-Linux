@@ -18,7 +18,9 @@ A minimal transparent Firefox theme, for Linux(Maybe Windows if you can find a b
 3. Download the contents of the `chrome` folder
 4. Move the `chrome` folder to the Profile directory
 5. (optional) move `disabled/removeContextMenuBloat.css` to `./enabled` for a leaner right-click menu
-6. Restart Firefox
+6. Edit `userChrome.css` `--theme:` variable with your desired R, G, B values. 
+7. Restart Firefox
+8. Configure your blur shader for prettier windows
 
 ## Examples
 
