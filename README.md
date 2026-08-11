@@ -1,9 +1,15 @@
 # Transparent-Firefox
-Makes firefox transparent with colored tint
-# Dynamic Firefox Theme
+Makes Firefox transparent with colored tint
+
 <img width="650" height="500" alt="Screenshot_2026-04-09_17-19-14(1)" src="https://github.com/user-attachments/assets/7bb875ea-4b77-41b7-b1ae-9dfe097f5706" />
 
-A minimal dark Firefox theme that dynamically colors the interface using the system's accent color (works on Windows, Linux and probably MacOS) while maintaining the browser's default layout and behavior.
+A minimal transparent Firefox theme, for Linux(Maybe Windows if you can find a blur shader) while maintaining the browser's default layout.
+
+## Requirements
+1. Firefox Desktop 153.0.1 (Other versions might work)
+2. A Distro Compatible blur shader
+     1. Hyprland's Built-in shader
+     2. <a href="https://github.com/can1357/kde-blur"> KDE blur shader (untested) </a>
 
 ## Installation
 
@@ -17,9 +23,5 @@ A minimal dark Firefox theme that dynamically colors the interface using the sys
 ## Examples
 
 <img width="1280" height="720" alt="2026-08-10_23.03.32" src="examples/screenshot-2026-08-10_23.03.32.png" />
-<img width="1280" height="720" alt="2025-11-25_14-09" src="examples/Screenshot_2026-04-09_17-19-51.png" />
+<img width="1280" height="720" alt="2026-08-10_23.04.26" src="examples/screenshot-2026-08-10_23.04.26.png" />
 
-
-## Thanks
-
-Special thanks to MrOtherGuy's [Firefox CSS Hacks](https://github.com/MrOtherGuy/firefox-csshacks/) which is a great material for creating themes on Firefox.
