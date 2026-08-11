@@ -16,9 +16,9 @@ A minimal dark Firefox theme that dynamically colors the interface using the sys
 
 ## Examples
 
-<img width="1280" height="720" alt="2025-11-25_14-09" src="/Screenshot_2026-04-09_17-19-14.png" />
-<img width="1280" height="720" alt="2025-11-25_14-09" src="/Screenshot_2026-04-09_17-19-51.png" />
-<img width="1280" height="720" alt="2025-11-25_14-09" src="/Screenshot_2026-04-09_17-20-41.png" />
+<img width="1280" height="720" alt="2026-08-10_23.03.32" src="examples/screenshot-2026-08-10_23.03.32.png" />
+<img width="1280" height="720" alt="2025-11-25_14-09" src="examples/Screenshot_2026-04-09_17-19-51.png" />
+
 
 ## Thanks
 
