@@ -1,4 +1,4 @@
-# Transparent-Firefox
+# Transparent-Firefox-Linux
 Makes Firefox transparent with colored tint
 
 <img width="650" height="500" alt="screenshot-2026-08-10_23.44.50" src="examples/screenshot-2026-08-10_23.44.50.png" />
