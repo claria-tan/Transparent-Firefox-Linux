@@ -3,7 +3,7 @@
 :root {
     /* Theme colors */
     /* Set me to your preferred color! */
-    --theme: 44, 32, 31 !important;/*44, 32, 31 */
+    --theme: 44, 32, 31 !important;
 
     --theme-primary: rgba(var(--theme), 0.79) !important;
     --theme-transparent: rgba(var(--theme), 0.50) !important;
@@ -23,7 +23,7 @@ background-image: none !important;
 }
 /* Apply theme */
 #navigator-toolbox {
-background-color: var(--theme-primary) !important; /*rgba(44, 32, 31, 0.79)*/
+background-color: var(--theme-primary) !important;
 border: none !important;
 }
 
