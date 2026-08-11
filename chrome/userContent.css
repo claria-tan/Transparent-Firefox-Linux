@@ -1,0 +1,27 @@
+@-moz-document url("about:home"), url("about:newtab"), url("about:blank"), url("about:privatebrowsing") {
+    body {
+        background-color: var(--theme-opaque) !important;
+    }
+
+    .main-content,
+    .search-container,
+    .topic {
+        background-color: var(--theme-opaque) !important;
+    }
+
+    /* Search window */
+    .search-handoff-button,
+    .search-handoff-input,
+    .search-input,
+    .fake-textbox,
+    .fake-editable {
+        background-color: var(--theme-opaque) !important;
+        border-color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+
+    .search-handoff-button {
+        background-color: var(--theme-opaque !important;
+        border-color: rgba(255, 255, 255, 0.1) !important;
+    }
+

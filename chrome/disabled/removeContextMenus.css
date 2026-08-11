@@ -1,0 +1,7 @@
+/* Remove right-click context menu's */
+#context-inspect,#context-inspect-a11y,#context-selectall,#context-back,
+#context-forward,#context-reload,#context-bookmarkpage,#context-take-screenshot,
+#context-openlinkprivate,#context-openlinkincontainertab,#context-bookmarklink,#context-savelink,
+#context-ask-chat,#context-sep-selectall,#frame-sep{
+display: none !important;
+}
