@@ -3,7 +3,7 @@ Makes Firefox transparent with colored tint
 
 <img width="650" height="500" alt="screenshot-2026-08-10_23.44.50" src="examples/screenshot-2026-08-10_23.44.50.png" />
 
-A minimal transparent Firefox theme, for Linux(Maybe Windows if you can find a blur shader) while maintaining the browser's default layout.
+A small transparent Firefox theme, for Linux(Maybe Windows if you can find a blur shader) while maintaining the browser's default layout.
 
 ## Requirements
 1. Firefox Desktop 153.0.1 (Other versions might work)
