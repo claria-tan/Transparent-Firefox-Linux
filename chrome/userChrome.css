@@ -3,7 +3,7 @@
 :root {
     /* Theme colors */
     /* Set me to your preferred color! */
-    --theme: 44, 32, 31 !important;
+    --theme: 44, 32, 31 !important;/*44, 32, 31 */
 
     --theme-primary: rgba(var(--theme), 0.79) !important;
     --theme-transparent: rgba(var(--theme), 0.50) !important;
@@ -23,16 +23,16 @@ background-image: none !important;
 }
 /* Apply theme */
 #navigator-toolbox {
-background-color: var(--theme-primary) !important;
+background-color: var(--theme-primary) !important; /*rgba(44, 32, 31, 0.79)*/
 border: none !important;
 }
 
 /* Tab radius and background color */
-#tabbrowser-tabpanels, #appcontent, browser, .browserContainer {
-background-color: var(--theme-opaque) !important;
+#tabbrowser-tabpanels, #appcontent, browser, vbox.browserContainer {
+border-radius:  20px !important;
 }
-vbox.browserContainer {
-    border-radius:  20px !important;
+#tabbrowser-tabbox {
+background-color: var(--theme-transparent) !important;
 }
 
 /* Selected Tab Background Color */
