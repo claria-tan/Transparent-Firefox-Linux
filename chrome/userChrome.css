@@ -13,26 +13,26 @@
 
 /* Make the main window completely transparent */
 #main-window, body {
-background-color: transparent !important;
-appearance: win-glass !important;
+    background-color: transparent !important;
+    appearance: win-glass !important;
 }
 /* Make navbar transparent */
 #nav-bar, #TabsToolbar, #PersonalToolbar {
-background-color: transparent !important;
-background-image: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
 }
 /* Apply theme */
 #navigator-toolbox {
-background-color: var(--theme-primary) !important; /*rgba(44, 32, 31, 0.79)*/
-border: none !important;
+    background-color: var(--theme-primary) !important; /*rgba(44, 32, 31, 0.79)*/
+    border: none !important;
 }
 
 /* Tab radius and background color */
 #tabbrowser-tabpanels, #appcontent, browser, vbox.browserContainer {
-border-radius:  20px !important;
+    border-radius:  20px !important;
 }
 #tabbrowser-tabbox {
-background-color: var(--theme-transparent) !important;
+    background-color: var(--theme-transparent) !important;
 }
 
 /* Selected Tab Background Color */
@@ -57,25 +57,27 @@ panel::part(content),
 }
 
 /* urlbar themes */
-.urlbar, #searchbar {
-    --urlbar-background-background-color-focused: var(--theme-slight-transparent) !important;
-    border: none !important;
-    border-radius: 11px !important;
+.urlbar[focused] {
+    .urlbar-background {
+        background:  var(--theme-slight-transparent) !important;
+    }
 }
-.urlbar[open] {
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-}
-
 
 /* Edit Hamburger menu theme*/
-.panel-subview-body {
-    background-color: var(--theme-primary) !important;
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-    border-radius: 8px
-}
 #appMenu-popup {
 opacity: 0.95 !important;
+
+.panel-subview-body {
+    background: var(--theme-slight-transparent) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px;
 }
+}
+/* Search Engine Switcher Theme */
+.searchmode-switcher-panel {
+    opacity: 0.95 !important;
 
-
-
+    .searchmode-switcher-panel-list {
+        background: var(--theme-primary) !important;
+    }
+}
