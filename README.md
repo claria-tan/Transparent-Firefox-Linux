@@ -6,7 +6,7 @@ Makes Firefox transparent with colored tint
 A small transparent Firefox theme, for Linux(Maybe Windows if you can find a blur shader) while maintaining the browser's default layout.
 
 ## Requirements
-1. Firefox Desktop 154.0 (Other versions might work)
+1. Firefox Desktop 154.0 only
 2. A Distro Compatible blur shader
      1. Hyprland's Built-in shader
      2. <a href="https://github.com/can1357/kde-blur"> KDE blur shader (untested) </a>
