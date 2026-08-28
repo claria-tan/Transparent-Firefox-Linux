@@ -13,37 +13,31 @@
 
 /* Make the main window completely transparent */
 #main-window, body {
-    background-color: transparent !important;
-    appearance: win-glass !important;
+background-color: transparent !important;
+appearance: win-glass !important;
 }
 /* Make navbar transparent */
 #nav-bar, #TabsToolbar, #PersonalToolbar {
-    background-color: transparent !important;
-    background-image: none !important;
+background-color: transparent !important;
+background-image: none !important;
 }
 /* Apply theme */
 #navigator-toolbox {
-    background-color: var(--theme-primary) !important; /*rgba(44, 32, 31, 0.79)*/
-    border: none !important;
+background-color: var(--theme-primary) !important; /*rgba(44, 32, 31, 0.79)*/
+border: none !important;
 }
 
 /* Tab radius and background color */
-#tabbrowser-tabpanels, #appcontent, browser, vbox.browserContainer {
+vbox.browserContainer {
     border-radius:  20px !important;
 }
-#tabbrowser-tabbox {
-    background-color: var(--theme-transparent) !important;
+#browser {
+background: var(--theme-primary) !important;
 }
 
 /* Selected Tab Background Color */
 .tab-background[selected] {
     background-color: var(--theme-opaque) !important;
-}
-.tabbrowser-tab[selected = true] {
-    filter: brightness(150%);
-}
-.tab-group-line[selected] {
-    filter: brightness(70%) !important;
 }
 
 /* Rightclick menu themes  */
