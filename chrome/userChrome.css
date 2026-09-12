@@ -28,10 +28,11 @@ border: none !important;
 }
 
 /* Tab radius and background color */
-vbox.browserContainer {
-    border-radius:  20px !important;
+.browserContainer{
+    border-radius: 20px !important;
 }
-#browser {
+#browser{
+max-width: 100% !important;
 background: var(--theme-primary) !important;
 }
 
