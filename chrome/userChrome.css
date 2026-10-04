@@ -57,6 +57,10 @@ panel::part(content),
         background:  var(--theme-slight-transparent) !important;
     }
 }
+.urlbarView-background {
+    background: var(--theme-primary) !important;
+}
+
 
 /* Edit Hamburger menu theme*/
 #appMenu-popup {
@@ -68,6 +72,7 @@ opacity: 0.95 !important;
     border-radius: 8px;
 }
 }
+
 /* Search Engine Switcher Theme */
 .searchmode-switcher-panel {
     opacity: 0.95 !important;
@@ -75,4 +80,11 @@ opacity: 0.95 !important;
     .searchmode-switcher-panel-list {
         background: var(--theme-primary) !important;
     }
+}
+.button-background.labelled{
+    background: var(--theme-primary) !important;
+}
+/*tab preview when hovered theme */
+#tab-preview-panel {
+--panel-background-color: var(--theme-slight-transparent) !important;
 }
